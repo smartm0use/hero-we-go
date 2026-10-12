@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hero We Go</string>
+    <string name="app_description">Legacy Remote for GoPro HERO3 &amp; HERO3+</string>
+    <string name="wifi_disconnected">Wi-Fi scollegato. Collega il telefono alla GoPro e riprova</string>
+</resources>

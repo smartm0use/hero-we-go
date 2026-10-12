@@ -1,0 +1,36 @@
+# Build outputs and local Android tooling
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+.DS_Store
+
+# Installable binaries belong in releases, not source history
+*.apk
+*.aab
+*.apks
+
+# Credentials, signing material and local configuration
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.key
+*.pem
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+
+# Device diagnostics and personal media
+*.log
+last-error.txt
+ISSUES/
+screenshots-private/
+
+# Camera firmware is not part of this project
+UPDATE.zip
+*.bin
